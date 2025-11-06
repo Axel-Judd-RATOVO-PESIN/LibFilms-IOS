@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6700D74B2EBB50A100DB2DA2 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 6700D74A2EBB50A100DB2DA2 /* DesignSystem */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6700D7362EBB4D0900DB2DA2 /* LibFilms_ios_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibFilms_ios_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6700D7482EBB506800DB2DA2 /* Exceptions for "LibFilms_ios_app" folder in "LibFilms_ios_app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DesignSystem,
+			);
+			target = 6700D7352EBB4D0900DB2DA2 /* LibFilms_ios_app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6700D7382EBB4D0900DB2DA2 /* LibFilms_ios_app */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6700D7482EBB506800DB2DA2 /* Exceptions for "LibFilms_ios_app" folder in "LibFilms_ios_app" target */,
+			);
 			path = LibFilms_ios_app;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6700D74B2EBB50A100DB2DA2 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				6700D7382EBB4D0900DB2DA2 /* LibFilms_ios_app */,
+				6700D7492EBB50A100DB2DA2 /* Frameworks */,
 				6700D7372EBB4D0900DB2DA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +62,13 @@
 				6700D7362EBB4D0900DB2DA2 /* LibFilms_ios_app.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6700D7492EBB50A100DB2DA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -65,6 +91,7 @@
 			);
 			name = LibFilms_ios_app;
 			packageProductDependencies = (
+				6700D74A2EBB50A100DB2DA2 /* DesignSystem */,
 			);
 			productName = LibFilms_ios_app;
 			productReference = 6700D7362EBB4D0900DB2DA2 /* LibFilms_ios_app.app */;
@@ -328,6 +355,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6700D74A2EBB50A100DB2DA2 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6700D72E2EBB4D0900DB2DA2 /* Project object */;
 }
