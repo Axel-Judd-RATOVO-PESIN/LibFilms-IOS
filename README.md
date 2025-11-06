@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[LIEN-VERS-VOTRE-AppLogo.png]" alt="Logo LibFilms" width="150">
+  <img src=".screenshots/AppLogo.png" alt="Logo LibFilms" width="150">
 </p>
 
 # LibFilms App (Projet iOS)
