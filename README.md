@@ -20,7 +20,7 @@ L'application est conçue avec un thème sombre et épuré, inspiré d'Apple TV,
 
 | Login | Bibliothèque | Détail du Film | Profil |
 | :---: | :---: | :---: | :---: |
-| ![Écran de connexion](.screenshots/login.png) | ![Écran de la bibliothèque](.screenshots/library.png) | ![Écran de détail du film](.screenshots/detail.png) | ![Écran de profil](.screenshots/profile.png) |
+| ![Écran de connexion](.screenshots/login.png) | ![Écran de la bibliothèque](.screenshots/library.png) | ![Écran de détail du film](.screenshots/detail.png) | ![Écran de profil](.screenshots/profil.png) |
 
 ---
 
